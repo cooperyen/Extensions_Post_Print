@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background-color: white;
+  border: 1px solid #dfdfdf;
+  padding: 5px 20px 6px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #628952;
+  color: white;
+  border: 1px solid #628952;
+}
+/*# sourceMappingURL=standard.css.map */

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background-color: white;
+  border: 1px solid #dfdfdf;
+  padding: 5px 20px 6px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  background-color: #628952;
+  color: white;
+  border: 1px solid #628952;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+#app {
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#app .container {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#app .container .current-poster .current-poster-textbox {
+  font-size: 11pt;
+}
+
+#app .container .current-poster .current-poster-textbox span {
+  color: #db6767;
+}
+
+#app .container .current-poster::after {
+  margin-top: 5px;
+  display: block;
+  content: '';
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+#app .container .outfit {
+  padding: 5px;
+  margin: 15px 0;
+}
+
+#app .container .poster form .poster-content {
+  margin-bottom: 10px;
+}
+
+#app .container .poster form .poster-content input {
+  padding-left: 5px;
+  width: 100%;
+  line-height: 30px;
+  border-radius: 5px;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+#app .container .poster form .poster-content input::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+#app .container .poster form .poster-content input:-ms-input-placeholder {
+  color: #a8a8a8;
+}
+
+#app .container .poster form .poster-content input::-ms-input-placeholder {
+  color: #a8a8a8;
+}
+
+#app .container .poster form .poster-content input::placeholder {
+  color: #a8a8a8;
+}
+
+#app .container .poster form .poster-content .input-check {
+  border: 1px solid #db6767;
+}
+
+#app .container .poster form .poster-content p {
+  margin-top: 3px;
+  margin-left: 3px;
+  color: #db6767;
+}
+/*# sourceMappingURL=option.css.map */

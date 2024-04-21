@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>寄件人設定</title>
+  <link rel="stylesheet" href="./css/option.css">
+  <script defer src="./js/options.js"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+  <div id="app">
+    <div class="container">
+
+      <div class="current-poster outfit">
+        <h2>寄件資訊</h2>
+        <div class="current-poster-textbox">
+          <p>郵遞區號 : <span>尚未設定</span></p>
+          <p>區域 : <span>尚未設定</span></p>
+          <p>地址 : <span>尚未設定</span></p>
+          <p>寄件人 : <span>尚未設定</span></p>
+          <p>電話 : <span>尚未設定</span></p>
+        </div>
+      </div>
+
+      <div class="poster outfit">
+        <form id='poster-form'>
+          <div class="poster-content">
+            <input id="poster-postcode" autocomplete="off" type="text" placeholder="郵遞區號">
+            <p></p>
+          </div>
+
+          <div class="poster-content">
+            <input id="poster-area" autocomplete="off" type="text" placeholder="縣市區">
+            <p></p>
+          </div>
+
+          <div class="poster-content">
+            <input id="poster-address" autocomplete="off" type="text" placeholder="地址">
+            <p></p>
+          </div>
+
+          <div class="poster-content">
+            <input id="poster-poster" autocomplete="off" type="text" placeholder="寄件人">
+            <p></p>
+          </div>
+
+          <div class="poster-content">
+            <input id="poster-phone" autocomplete="off" type="text" placeholder="電話">
+            <p></p>
+          </div>
+
+          <button class="check">更新</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>

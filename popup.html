@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopline郵寄小幫手</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/popup.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <div class="content">
+      <div class="content_box">
+        <div class="content_box_inner">
+          <button id="getpost">郵寄名單</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="new-start">
+      <h2>"請在分頁中持續開啟 shopline 需要列印的郵寄訂單頁面"</h2>
+    </div>
+
+    <div id="post-list" class="hidden">
+      <div id="printbtn" class="printbtn_close">
+        <button class="functionBTN">列印</button>
+      </div>
+      <div class="info">
+      </div>
+    </div>
+
+    <div id="xlxs-list" class="hidden">
+      <button class="hidden functionBTN">複製</button>
+      <table id="table-data">
+      </table>
+    </div>
+
+    <div class="spinner spinner-hidden">
+      <div class="spinner_img">
+        <img src="./img/spinner.png">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

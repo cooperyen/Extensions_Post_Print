@@ -1,0 +1,31 @@
+{
+  "name": "Shopline郵寄小幫手",
+  "description": "首次安裝請於選項內設定寄件地址。使用方式:於分頁中開啟Shopline需要列印的郵寄訂單，執行套件後即可取得完整郵寄單內容，可用於熱感印貼印製",
+  "version": "1.1.5",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "./js/background.js"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://admin.shoplineapp.com/*/orders/*"
+  ],
+  "action": {
+    "default_icon": {
+      "16": "/img/icon16.png",
+      "32": "/img/icon32.png",
+      "48": "/img/icon48.png",
+      "128": "/img/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "/img/icon16.png",
+    "32": "/img/icon32.png",
+    "48": "/img/icon48.png",
+    "128": "/img/icon128.png"
+  }
+}
